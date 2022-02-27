@@ -5,7 +5,7 @@ pipeline{
         stage('build')
         {
             steps{
-                sh 'First attempt for Succesful Output'
+                echo "This should execute"
             }
         }
     }
